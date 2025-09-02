@@ -8,7 +8,7 @@ This repository curates and compares open-source methods for global LiDAR locali
 ## Table of Contents
 - [A) Global LiDAR localization in a prior 3D map (cold-start; no initial pose required)](#a-global-lidar-localization-in-a-prior-3d-map-cold-start-no-initial-pose-required)
 - [B) Initial-pose estimators (scan→map) to seed a localizer later](#b-initial-pose-estimators-scanmap-to-seed-a-localizer-later)
-- [C) Map localization / SLAM that expects an initial pose (works best after A or B)](#c-map-localization--slam-that-expects-an-initial-pose-works-best-after-a-or-b)
+- [C) Map localization that expects an initial pose (works best after A or B)](#c-map-localization--slam-that-expects-an-initial-pose-works-best-after-a-or-b)
 - [D) Not a direct localizer (supporting tools / lists / map optimizers)](#d-not-a-direct-localizer-supporting-tools-lists-or-map-optimizers)
 
 
@@ -47,7 +47,7 @@ This repository curates and compares open-source methods for global LiDAR locali
 
 ---
 
-## C) Map localization / SLAM that **expects an initial pose** (works best after A or B)
+## C) Map localization that **expects an initial pose** (works best after A or B)
 
 | Project                                                                                                                                                                                                                                                                                                   | What it is (incl. base methods)                                                         | Strengths                                          | Limitations                                                                                     |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
